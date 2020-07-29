@@ -1,0 +1,167 @@
+body {
+      padding: 0;
+      font-family: sans-serif;
+      background-color: white;
+}
+
+a { text-decoration: none; }
+
+.row-flex {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+[class*="col-"] {
+    margin-bottom: 30px;
+}
+
+.content {
+      height: 100%;
+      padding: 20px 20px 10px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.colour-1 {
+    background: #483C46;
+}
+
+.colour-2 {
+    background: #3C6E71;
+}
+
+.colour-3 {
+    background: #70AE6E;
+}
+
+.colour-4 {
+    background-color: #66CDAA;
+}
+
+.colour-5 {
+      background: #558C8C;
+}
+
+.colour-6 {
+    background: #917C78;
+}
+
+.content h3 {
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.colour-7 {
+    background: white;
+    color: black;
+}
+
+#logo-h {
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+        
+.navbar-inverse {
+    background-color: #223;
+}
+        
+.highlight {
+    font-weight: 600;
+}
+        
+.history {
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}  
+
+.navbar-inverse .navbar-nav > li > a { 
+    color: white; 
+}
+
+.navbar-inverse .navbar-nav > li:hover { 
+    background-color: #70AE6E;
+}
+ 
+.node-treeview {
+    background-color: #483C46;
+}
+
+.list-group-item {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.list-group-item:first-child {
+    border-radius: 0px;
+}
+
+.list-group-item:last-child {
+    border-radius: 0px;
+}
+
+.node-treeview:hover {
+    color: white;
+}
+        
+.left-sidebar {
+    padding: 0px;
+}
+   
+a.main-menu {
+    text-align:center;
+    color: white;
+}
+        
+.fas, .fa, .far {
+    margin-right: 10px;
+}
+        
+.menu-it { font-size: 24px; 
+    font-weight: 300; 
+}
+
+#price_input {
+    background-color: #70AE6E;
+    font-weight: 600;
+    color: white;
+} 
+
+#price_label {
+    font-weight: 800; 
+    margin-bottom: 10px;
+}
+
+#calendar .fc-today{
+    background: white;
+    color: #483C46;
+}
+
+#calendar .fc-day{
+    transition: all .7s;
+}
+
+#calendar .fc-day:hover{
+    background: #70AE6E;
+}
+
+#calendar h2:first-letter {
+    text-transform: uppercase;
+}
+
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #4b5f58;
+}
+
+.ev-info {
+    min-width: 150px;
+}

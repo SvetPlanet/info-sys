@@ -1,0 +1,9 @@
+@media print {
+    * {
+        display: none !important;
+    }
+    
+    #calendar {
+         display: block !important;
+    }
+}
